@@ -1,6 +1,6 @@
 package demo.myown;
 
-public interface Subscription {
+public interface Subscription<T> {
 
 	public void request(long n);
 	
